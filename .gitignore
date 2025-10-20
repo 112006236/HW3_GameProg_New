@@ -2,6 +2,12 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
+# KEEP THESE FILES - Essential for team collaboration
+!Packages/packages-lock.json
+!ProjectSettings/InputSystem/
+!ProjectSettings/InputManager.asset
+!ProjectSettings/ProjectSettings.asset
+
 .utmp/
 [Ll]ibrary/
 [Tt]emp/
